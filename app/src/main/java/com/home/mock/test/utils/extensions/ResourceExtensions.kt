@@ -6,6 +6,6 @@ import androidx.annotation.IntegerRes
 fun Resources.getLong(@IntegerRes integerRes: Int): Long {
     // Retrieve the integer value associated with the provided resource ID
     val intValue = getInteger(integerRes)
-    // Convert the retrieved integer value to a Long and Return the converted Long value
+    // Convert the retrieved integer value to a Long andReturn the converted Long value
     return intValue.toLong()
 }

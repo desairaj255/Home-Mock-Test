@@ -12,4 +12,8 @@ object ApiConstants {
 
     // Constant property representing the specific endpoint for fetching user-related data
     const val USERS_ENDPOINT = "users"
+
+    const val USERS_API_STARTING_PAGE_INDEX = 1
+
+    const val QUERY_PAGE_SIZE = 20
 }

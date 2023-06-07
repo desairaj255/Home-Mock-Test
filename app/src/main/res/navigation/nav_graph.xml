@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/usersFragment">
+
+    <fragment
+        android:id="@+id/usersFragment"
+        android:name="com.home.mock.test.ui.users.UsersFragment"
+        android:label="fragment_users"
+        tools:layout="@layout/fragment_users" />
+
+    <fragment
+        android:id="@+id/favoriteUsersFragment"
+        android:name="com.home.mock.test.ui.favorites.FavoriteUsersFragment"
+        android:label="fragment_favorite_users"
+        tools:layout="@layout/fragment_favorite_users" />
+
+    <fragment
+        android:id="@+id/toDoFragment"
+        android:name="com.home.mock.test.ui.todo.ToDoFragment"
+        android:label="fragment_to_do"
+        tools:layout="@layout/fragment_to_do" />
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.home.mock.test.ui.profile.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+</navigation>

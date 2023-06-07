@@ -18,7 +18,6 @@ fun GetOneUserResponse.toUserWithFavorite(): UserWithFavorite =
         favorite = null
     )
 
-
 fun CachedUser.toDomain(): User =
     User(
         userId,

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Header Text Theme -->
+    <style name="TextAppearance.HomeMockTest.Subtitle1" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="fontFamily">@font/lato_bold</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--Desc Text Theme -->
+    <style name="TextAppearance.HomeMockTest.Overline" parent="TextAppearance.MaterialComponents.Overline">
+        <item name="fontFamily">@font/lato</item>
+    </style>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!--bottom nav dimens-->
+    <dimen name="padding_navigation_bottom">56dp</dimen>
+    <dimen name="design_bottom_navigation_height" tools:override="true">65dp</dimen>
+    <!--loader dimens-->
+    <dimen name="progress_bar_height">75dp</dimen>
+    <!--card view dimens-->
+    <dimen name="card_corner_radius">8dp</dimen>
+    <!--margin dimens-->
+    <dimen name="margin_small">4dp</dimen>
+    <dimen name="margin_low">8dp</dimen>
+    <dimen name="margin_standard">16dp</dimen>
+    <dimen name="margin_high">32dp</dimen>
+    <!--padding dimens-->
+    <dimen name="padding_small">4dp</dimen>
+    <dimen name="padding_low">8dp</dimen>
+    <dimen name="padding_standard">16dp</dimen>
+    <dimen name="padding_high">32dp</dimen>
+</resources>

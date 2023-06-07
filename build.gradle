@@ -20,7 +20,7 @@ buildscript {
         glide = "4.13.2"
         splash_screen = "1.0.0-rc01"
         sandwich = "1.2.5"
-        dagger_hilt = "2.42"
+        dagger_hilt = "2.46.1"
         shimmer = "0.5.0"
         leak_canary = "2.8.1"
     }
@@ -30,7 +30,6 @@ buildscript {
         classpath "com.google.dagger:hilt-android-gradle-plugin:$dagger_hilt"
         classpath "org.jetbrains.kotlin:kotlin-serialization:$KOTLIN"
     }
-
 }
 
 // Top-level build file where you can add configuration options common to all sub-projects/modules.

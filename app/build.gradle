@@ -99,4 +99,7 @@ dependencies {
 
     // Leak Canary
 /*    debugImplementation "com.squareup.leakcanary:leakcanary-android:$leak_canary"*/
+
+    //swipe reveal
+    implementation project(':lib-swipetoactionlayout')
 }
