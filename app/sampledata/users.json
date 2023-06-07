@@ -1,0 +1,72 @@
+[
+  {
+    "id": 2565274,
+    "name": "Rajan Bhat",
+    "email": "bhat_rajan@larkin-watsica.test",
+    "gender": "male",
+    "status": "inactive"
+  },
+  {
+    "id": 2565273,
+    "name": "Mr. Gudakesha Abbott",
+    "email": "abbott_mr_gudakesha@torphy.test",
+    "gender": "male",
+    "status": "active"
+  },
+  {
+    "id": 2565270,
+    "name": "Poornima Nayar Ret.",
+    "email": "nayar_ret_poornima@willms-torp.example",
+    "gender": "female",
+    "status": "inactive"
+  },
+  {
+    "id": 2565269,
+    "name": "Daiwik Deshpande",
+    "email": "daiwik_deshpande@pollich.example",
+    "gender": "male",
+    "status": "inactive"
+  },
+  {
+    "id": 2565267,
+    "name": "Chandak Mishra",
+    "email": "chandak_mishra@mayert.example",
+    "gender": "female",
+    "status": "inactive"
+  },
+  {
+    "id": 2565265,
+    "name": "Vidya Verma",
+    "email": "verma_vidya@stroman.example",
+    "gender": "female",
+    "status": "active"
+  },
+  {
+    "id": 2565263,
+    "name": "Trilochana Nehru DO",
+    "email": "do_nehru_trilochana@langworth.test",
+    "gender": "female",
+    "status": "inactive"
+  },
+  {
+    "id": 2565262,
+    "name": "Lakshminath Iyer",
+    "email": "lakshminath_iyer@sanford.example",
+    "gender": "female",
+    "status": "inactive"
+  },
+  {
+    "id": 2565261,
+    "name": "Deveshwar Acharya",
+    "email": "acharya_deveshwar@bins.test",
+    "gender": "male",
+    "status": "inactive"
+  },
+  {
+    "id": 2565260,
+    "name": "Ujjwal Shah",
+    "email": "shah_ujjwal@braun-kihn.example",
+    "gender": "female",
+    "status": "active"
+  }
+]

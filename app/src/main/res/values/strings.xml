@@ -1,3 +1,23 @@
 <resources>
     <string name="app_name">HomeMockTest</string>
+    <!--bottom nav title-->
+    <string name="title_bottom_nav_users">Users</string>
+    <string name="title_bottom_nav_fav_users">Fav Users</string>
+    <string name="title_bottom_nav_to_do">To Do</string>
+    <string name="title_bottom_nav_profile">Profile</string>
+    <!--swipe reveal title-->
+    <string name="title_list_of_users">List Of Users</string>
+    <string name="title_list_of_fav_users">List Of Fav Users</string>
+    <string name="title_list_of_to_do">To Do</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_add_to_favorites">Add To\nFavorites</string>
+    <string name="title_remove_favorites">Remove\nFavorites</string>
+    <!--api error msg-->
+    <string name="on_dismiss">DISMISS</string>
+    <string name="error_ocurred_fetch">An error occurred fetching the data. Please try refreshing again.</string>
+    <string name="no_fav_users_found">No favorites users found.</string>
+    <string name="coming_soon">Coming soon.....</string>
+    <!--user status title-->
+    <string name="card_item_transition">Card Transition</string>
+    <string name="status_active">active</string>
 </resources>

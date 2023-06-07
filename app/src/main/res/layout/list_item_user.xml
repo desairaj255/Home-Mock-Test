@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/colorPrimary"
+    android:paddingTop="@dimen/padding_small"
+    android:theme="@style/HomeMockTest.Theme">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/user_item"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="?attr/colorPrimary"
+        app:cardCornerRadius="@dimen/card_corner_radius"
+        app:cardElevation="1dp"
+        app:cardUseCompatPadding="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="H,4:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed">
+
+        <com.swipetoactionlayout.SwipeToActionLayout
+            android:id="@+id/swipe_to_action_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="?attr/colorPrimary"
+            app:sal_gravity="right"
+            app:sal_isFullActionSupported="false"
+            app:sal_items="@menu/swipe_to_action_add_fav_menu"
+            app:sal_shouldVibrateOnQuickAction="false">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="?attr/colorPrimary"
+                android:paddingHorizontal="@dimen/padding_low"
+                android:paddingVertical="@dimen/padding_standard">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/text_view_user_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/app_name"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/lato_bold"
+                    android:gravity="center_vertical"
+                    android:includeFontPadding="false"
+                    android:textAllCaps="false"
+                    android:textAppearance="?attr/textAppearanceSubtitle1"
+                    android:textColor="?attr/colorOnPrimary"
+                    app:layout_constraintBottom_toTopOf="@+id/text_view_user_gender"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_chainStyle="packed"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_chainStyle="packed"
+                    tools:text="@string/app_name" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/text_view_user_gender"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/app_name"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/lato"
+                    android:gravity="center_vertical"
+                    android:includeFontPadding="false"
+                    android:paddingVertical="@dimen/padding_small"
+                    android:textAllCaps="false"
+                    android:textAppearance="?attr/textAppearanceOverline"
+                    android:textColor="?attr/colorOnPrimary"
+                    app:layout_constraintBottom_toTopOf="@+id/text_view_user_email"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_chainStyle="packed"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/text_view_user_name"
+                    app:layout_constraintVertical_chainStyle="packed"
+                    tools:text="@string/app_name" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/text_view_user_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autoLink="web"
+                    android:contentDescription="@string/app_name"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/lato"
+                    android:gravity="center_vertical"
+                    android:includeFontPadding="false"
+                    android:paddingVertical="@dimen/padding_small"
+                    android:textAllCaps="false"
+                    android:textAppearance="?attr/textAppearanceOverline"
+                    android:textColor="?attr/colorSecondaryVariant"
+                    android:textColorLink="?attr/colorSecondaryVariant"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_chainStyle="packed"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/text_view_user_gender"
+                    app:layout_constraintVertical_chainStyle="packed"
+                    tools:text="@string/app_name" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </com.swipetoactionlayout.SwipeToActionLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/image_view_user_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:translationX="@dimen/padding_small"
+        android:translationY="@dimen/padding_small"
+        android:translationZ="@dimen/padding_small"
+        app:layout_constraintStart_toStartOf="@+id/user_item"
+        app:layout_constraintTop_toTopOf="@+id/user_item"
+        app:srcCompat="@drawable/ic_user_inactive" />
+</androidx.constraintlayout.widget.ConstraintLayout>

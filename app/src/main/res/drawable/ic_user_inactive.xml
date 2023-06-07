@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <solid android:color="@color/status_inactive" />
+    <size
+        android:width="@dimen/padding_low"
+        android:height="@dimen/padding_low" />
+</shape>
